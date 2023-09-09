@@ -1,10 +1,9 @@
-const slackname = document.querySelector(".slackname");
+
 const day = document.querySelector(".day");
 const time = document.querySelector(".time")
-const track = document.querySelector(".track")
 
-slackname.innerHTML ="Olaatunbi kehinde"
-track.innerHTML = "Frontend development"
+
+
 window.addEventListener('load',calculatetime)
     function calculatetime (){
         var date = new Date();
